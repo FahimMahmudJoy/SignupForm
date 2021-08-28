@@ -7,7 +7,7 @@ var fname = ''
 var lname = ''
 var mail = ''
 var pass = ''
-var mailcheck = /^[a-zA-Z]+\w*@[a-zA-Z]+\.[a-zA-Z]+\.*[a-zA-Z]+$/
+var mailcheck = /^[a-zA-Z]+\.*\w*\.*@[a-zA-Z]+\.[a-zA-Z]+\.*[a-zA-Z]+$/
 
 
 firstName.addEventListener('change', e => {
